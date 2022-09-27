@@ -1,0 +1,159 @@
+.navbar {background-color:#283747;}
+
+.nav-link {color: white;
+    font-size:x-large;
+    
+}
+
+
+.navbar-text {color:darkgray;
+    letter-spacing: normal;
+    padding: 1rem;
+    text-decoration: none;
+
+}
+.navbar-text:hover {color: white;}
+ 
+.navbar-text1 {color: #28B463;
+    text-decoration: none;
+}
+
+.navbar-text1:hover {color: #28B463;}
+  
+.contenedor {display: flex;
+    flex-direction: column;
+}
+
+.jumbotron {position:relative;}
+
+.hawai {background-image:url(IMAGENES\ INTEGRADOR/C:\Users\claudia\Desktop\INTENTOS PROGRAMACION\INTEGRADOR\IMAGENES INTEGRADOR\hawaii.jpg);
+    filter:brightness(0.5);    
+}
+
+.display-4 {position: absolute;
+    top: 350px;
+    right:10%;
+    color:white;
+}
+
+
+.texto {position:absolute;
+    color: white;
+    top: 440px;
+    right:10%;
+    font-weight:lighter;
+    text-align: justify right;
+    
+
+}
+
+.boto {position:absolute;
+    width: 45%;
+    top: 590px;
+    left: 68%;
+    
+}
+
+
+.conoce , .oradores {text-align: center;}
+
+
+.orador {display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+
+.botones {display: flex;
+    justify-content: left;
+    width: 140px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    column-gap:6px;
+       
+}
+
+.card-title {padding-top:5px;}
+
+.base {display: flex;}
+
+.parrafo {border: 1px solid;
+    height: 500px;
+    width: 49%;
+    background-color: black;
+    color: white;   
+}
+
+h4 {margin: 10px;}
+
+.octubre {margin: 4px;
+    padding: 4px;
+}
+
+.convier {text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.row {display: flex;
+    justify-content: center;
+    row-gap: 15px;
+
+}
+
+
+form {display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.mb-3 {display: flex;
+    flex-direction: row;
+    width: 34%;
+    margin: 11px;
+    
+}
+.form-floating {
+    width: 70%;
+    margin-bottom: 15px;  
+}
+
+form > button {width: 70%;
+    margin-bottom: 25px;
+    
+}
+.recuerda {margin-top: 15px;
+    font-size: small;
+}
+
+footer {background-color: darkblue;
+        color: white;
+        height: 80px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+}
+
+@media (max-width: 500px) {
+    .codo {max-width: 100px;
+         max-height: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .orador {flex-direction: column;}
+}
+
+@media (max-width: 450px) {
+    .row {font-stretch: ultra-condensed;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-shrink: unset;
+       background-color: #28B463;
+    }
+}
